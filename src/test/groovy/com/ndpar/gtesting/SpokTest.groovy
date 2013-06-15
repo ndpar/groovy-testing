@@ -1,11 +1,8 @@
 package com.ndpar.gtesting
 
-import org.junit.runner.RunWith
-import spock.lang.*
+import spock.lang.Specification
 
-@Speck
-@RunWith(Sputnik)
-class SpockTest {
+class SpockTest extends Specification {
 
     def app
 
